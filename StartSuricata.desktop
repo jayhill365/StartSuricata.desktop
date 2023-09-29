@@ -1,0 +1,7 @@
+[Desktop Entry]
+Name=Start Suricata
+Comment=Run Suricata with the specified configuration
+Exec=gksudo -k -u root "/usr/bin/suricata -c /etc/suricata/suricata.yaml -i ens5"
+Terminal=true
+Type=Application
+Icon=terminal
